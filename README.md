@@ -1,5 +1,19 @@
-# TheYoBots
+<h1 align="center">
+	TheYoBots
+</h1>
 
-![TheYoBots' GitHub stats](https://github-readme-stats-theyobots.vercel.app/api?username=TheYoBots&show_icons=true&theme=tokyonight)
+<p align="center">
+	<img width="450em" src="https://github-readme-stats-theyobots.vercel.app/api?username=TheYoBots&show_icons=true&include_all_commits=true&count_private=true&hide_border=true&theme=tokyonight" />
+</p>
 
-![TheYoBot's Top Langs](https://github-readme-stats-theyobots.vercel.app/api/top-langs/?username=TheYoBots&hide=c%2B%2B,Makefile&theme=tokyonight&exclude_repo=Fairy-Stockfish-Random)
+<p align="center">
+	<img width="450em" src="https://github-readme-streak-stats.herokuapp.com/?user=TheYoBots&include_all_commits=true&hide_border=true&theme=tokyonight"/>
+</p>
+
+<p align="center">
+	<img width="450em" src="https://github-readme-stats-theyobots.vercel.app/api/top-langs/?username=TheYoBots&layout=compact&custom_title=Most used languages&langs_count=10&include_all_commits=true&hide_border=true&theme=tokyonight&exclude_repo=Fairy-Stockfish-Random">
+</p>
+
+<p align="center">
+	<img width="625em" src="https://github.com/TheYoBots/TheYoBots/blob/master/github-metrics.svg" />
+</p>
