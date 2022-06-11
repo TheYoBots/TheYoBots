@@ -23,7 +23,7 @@
 </h2>
 
 <p align="center">
-	<a href="./profile-3d-contrib/profile-night-green.svg">
+	<a href="./github-contrib-graph.svg">
 		<img width="900em" src="./profile-3d-contrib/profile-night-rainbow.svg">
 	</a>
 </p>

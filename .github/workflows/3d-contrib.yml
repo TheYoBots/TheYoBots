@@ -20,6 +20,7 @@ jobs:
         run: |
           git config user.name TheYoBots
           git config user.email 73843275+TheYoBots@users.noreply.github.com
+          git add profile-3d-contrib/profile-night-rainbow.svg
           git mv profile-3d-contrib/profile-night-rainbow.svg github-contrib-graph.svg
           git add github-contrib-graph.svg
           git commit -m "Update 3d Contributions Graph"
