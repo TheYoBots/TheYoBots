@@ -21,7 +21,7 @@ jobs:
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
           git add -A
-          git commit -m "Update Leaderboard"
+          git commit -m "Update 3d Contributions Graph"
       - name: Push files
         uses: ad-m/github-push-action@v0.6.0
         with:
