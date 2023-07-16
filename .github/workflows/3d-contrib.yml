@@ -16,10 +16,14 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.CONTRIB_GRAPH_TOKEN }}
           USERNAME: ${{ github.repository_owner }}
           MAX_REPOS: ${{ github.repository_count }}
-      - name: Commit & Push
+      - name: Commit files
         run: |
-          git config user.name TheYoBots
-          git config user.email 73843275+TheYoBots@users.noreply.github.com
-          git add profile-3d-contrib/profile-night-rainbow.svg
-          git commit -m "Update 3d Contributions Graph"
-          git push --force
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add -A
+          git commit -m "Update Leaderboard"
+      - name: Push files
+        uses: ad-m/github-push-action@v0.6.0
+        with:
+          github_token: ${{ secrets.CONTRIB_GRAPH_TOKEN }}
+          branch: master
